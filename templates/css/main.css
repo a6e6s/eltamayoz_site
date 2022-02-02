@@ -1,0 +1,292 @@
+/*
+@Developed by : Ahmed Mosa .
+@Developer Site: http//www.elmosamem.com 
+*/
+/* 
+    Created on : 08/12/2015, 06:10:47 م
+    Author     : elmosamem
+*/
+
+@font-face
+{
+    font-family: 'Droid_Sans';
+    src: url(../fonts/Droid_Sans.ttf);
+}
+@font-face
+{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+body
+{
+    min-height: 100%;
+    color: #000;
+    background: #2f353e;
+    font-size: 16px;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+*:lang(ar)
+{
+    font-family: Droid_Sans;
+}
+*:lang(en)
+{
+    font-family: Roboto;
+}
+a
+{
+    transition: .7s;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+.heading
+{
+    display: table;
+    text-align: center;
+    margin: auto;
+}
+h1,h2,h3,h4,h5,p,ul
+{
+    padding: 0;
+    margin: 0;
+    color: #2f353e;
+}
+h1
+{
+    font-size: 48px;
+}
+ul
+{
+    list-style: none;
+}
+img
+{
+    border: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+.line
+{
+    position: relative;
+    margin-top: 15px;
+}
+.line span:first-child
+{
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin: 0 auto;
+    background: #7dc242;
+    transition: .5s;
+}
+.line span:last-child
+{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    background: #7dc242;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+}
+.heading:hover .line span:first-child
+{
+    width: 200px;
+}
+/*page load*/
+#loader{
+    z-index:999999;
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: #e3ecfd url(../images/mortphing-shape-gif-preloader.gif) 50% 50% no-repeat; 
+}
+/*header*/
+#header
+{
+    width: 100%;
+    height: 100%;
+    background: none;
+}
+.bgvid { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover; 
+    opacity: .1;
+}
+#header .he-content
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /*opacity: .2;*/
+}
+#header .services
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; 
+    width: 750px;
+    height: 600px;
+}
+#header .services .logo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 250px;
+    height: 280px;
+    z-index: 10;
+    overflow: hidden;
+}
+.row-1,.row-2,.row-3,.row-4,.row-5
+{
+    position: relative;
+    height: 28%;
+    text-align: center;
+}
+.row-1
+{
+    height: 16%;
+}
+.row-5
+{
+    height: 0%;
+}
+.serv-1,.serv-2,.serv-3,.serv-4,.serv-5,.serv-6,.serv-7,.serv-8
+{
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#header .services span a
+{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    transition: .5s;
+}
+#header .services a h2
+{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: .5s;
+    color: #fff;
+}
+#header .services a:hover  h2
+{
+    font-size: 16px;
+    opacity: 1;
+}
+#header .services a img
+{
+    margin: 0 auto;
+    transition: .5s;
+}
+#header .services a:hover img
+{
+    -ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Safari */
+    transform: scale(0.8,0.8);
+}
+.row-1 .serv-1
+{
+}
+.row-5 .serv-8
+{
+    margin-top: -80px;
+}
+.row-2 .serv-2,.row-4 .serv-6
+{
+    float: left;
+    margin-left: 80px;
+}
+.row-2 .serv-3,.row-4 .serv-7
+{
+    float: right;
+    margin-right: 80px;
+}
+.row-3 .serv-4
+{
+    float: left;
+    margin-left: 30px;
+}
+.row-3 .serv-5
+{
+    float: right;
+    margin-right: 30px;
+}
+
+/*@media*/
+@media (max-width: 700px)
+{
+    #header .services
+    {
+        position: relative;
+        width: auto;
+        height: 100%;
+        text-align: center;
+    }
+    #header .services .logo
+    {
+        position: relative;
+        width: 100%;
+        margin: 50px auto 100px auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .row-1,.row-2,.row-3,.row-4,.row-5
+    {
+        display: table;
+        height: auto;
+    }
+    .serv-1,.serv-2,.serv-3,.serv-4,.serv-5,.serv-6,.serv-7,.serv-8
+    {
+        position: relative;
+        display: block;
+        float: none!important;
+        margin: 0 0 50px 0!important;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+

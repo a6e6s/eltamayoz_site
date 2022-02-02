@@ -1,0 +1,215 @@
+/*
+@Developed by : Ahmed Mosa .
+@Developer Site: http//www.elmosamem.com 
+*/
+/* 
+    Created on : 08/12/2015, 06:21:50 م
+    Author     : stars
+*/
+body
+{
+    direction: rtl;
+}
+*
+{
+    font-family: Droid_Sans;
+}
+a.readmore i, .submit i
+{
+    margin-right: 20px;
+}
+a.readmore:hover i, .submit:hover i
+{
+    margin-right: 25px;
+}
+.heading2 .line span:last-child
+{
+    right: 0;
+}
+.heading2:hover .line span:last-child
+{
+    right: 100%;
+}
+.breadcrumbs > ul > li,.breadcrumbs > ul > li > .sep
+{
+    float: right;
+    padding-left: 10px;
+}
+.form-control
+{
+    padding-right: 30px;
+}
+.top i,#footer .top i
+{
+    margin-left: 5px;
+}
+.top .social a,#footer .top  .social a
+{
+    float: left;
+}
+.header .logo
+{
+    float: right;
+}
+.header .navbar-toggle
+{
+    float: left; 
+}
+.navbar-nav
+{
+    float: right;
+}
+.navbar-nav > li
+{
+    float: right;
+}
+ul.dropdown-menu { /* level 2 */
+    right: 0px;
+}
+ul.dropdown-menu ul.dropdown-menu { /* level 3+ */
+    right: 149px;
+}
+#menu-toggle {
+    float: left;
+}
+#work-steps .steps .step
+{
+    float: right;
+}
+#services .servicess .img
+{
+    float: right;
+}
+#services .servicess .i
+{
+    float: right;
+    /*margin-left: 10px;*/
+}
+.works > a > h5, .works > a > small 
+{
+    right: 20px;
+}
+#blog .blog article
+{
+    float: right;
+}
+#contacts .co-form
+{
+    float: right;
+}
+#contacts .info > h5 > i
+{
+    margin-left: 15px;
+}
+#contacts .info > h5:hover > i
+{
+    margin-left: 25px;
+}
+.plan-wrapper 
+{
+    float: right;
+}
+.page-content articles,.page-content post
+{
+    float: right;
+    padding-right: 0;
+}
+.page-content side
+{
+    padding-left: 0;
+}
+.page-content articles > article > .info > .part1
+{
+    float: right;
+}
+articles > article > .info .part1 i
+{
+    margin-left: 10px;
+}
+articles > article > .info .part1 li:hover > span
+{
+    margin-right: 5px;
+    transition: .5s;
+}
+@media (max-width: 768px)
+{
+    articles > article > .info .part1 i
+    {
+        margin-left: 5px;
+    }
+    articles > article > .info .part1 li:hover > span
+    {
+        margin-right: 0;
+    }
+    .navbar-nav
+    {
+        float: none;
+    }
+    .navbar-nav > li
+    {
+        float: none;
+    }
+}
+articles > article > .info .part2 > end > a.readmore
+{
+    /*float: left;*/
+}
+post > .info > ul > li,post > .social > i,.tags > i
+{
+    float: right;
+    margin-left: 30px;
+}
+post > .info > ul > li > i
+{
+    margin-left: 5px;
+}
+side .block li h3 > a
+{
+    padding-right: 10px;
+}
+side .block li:hover h3 > a
+{
+    padding-right: 15px;
+}
+side .block .img,.author > .avatar,post > .social > i,.tags > i
+{
+    float: right;
+}
+#mc_embed_signup form
+{
+    text-align: right!important;
+}
+side .block .list-articles li span i
+{
+    margin-left: 10px;
+}
+#footer .footer-menu,#footer .footer-menu  ul li
+{
+    float: right;
+}
+#footer .logo
+{
+    text-align: left;
+}
+#footer .logo > a
+{
+    float: left;
+}
+#footer .totop
+{
+    left: 15px;
+}
+.questions .captcha
+{
+    float: right;
+}
+.rtl_port{
+	float: right;
+}
+.prot_item dt{
+	float: right;
+}
+.prot_item dd{
+	margin-right: 0;
+	float: right;
+}

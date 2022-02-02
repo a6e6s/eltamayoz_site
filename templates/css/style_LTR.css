@@ -1,0 +1,197 @@
+/*
+@Developed by : Ahmed Mosa .
+@Developer Site: http//www.elmosamem.com 
+*/
+/* 
+    Created on : 08/12/2015, 06:21:50 م
+    Author     : stars
+*/
+body
+{
+    direction: ltr;
+}
+*
+{
+    font-family: Roboto;
+}
+a.readmore i, .submit i
+{
+    margin-left: 20px;
+}
+a.readmore:hover i, .submit:hover i
+{
+    margin-left: 25px;
+}
+.heading2 .line span:last-child
+{
+    left: 0;
+}
+.heading2:hover .line span:last-child
+{
+    left: 100%;
+}
+.breadcrumbs > ul > li,.breadcrumbs > ul > li > .sep
+{
+    float: left;
+    padding-right: 10px;
+}
+.form-control
+{
+    padding-left: 30px;
+}
+.top i,#footer .top i
+{
+    margin-right: 5px;
+}
+.top .social a,#footer .top  .social a
+{
+    float: right;
+}
+.header .logo
+{
+    float: left;
+}
+.header .navbar-header
+{
+    float: right;
+}
+.header .navbar-toggle
+{
+    float: right; 
+}
+#main-menu > li > a i
+{
+    margin-left: 5px;
+}
+#navigation ul.sub-menu { /* level 2 */
+    left: 0px;
+}
+#navigation ul.sub-menu ul.sub-menu { /* level 3+ */
+    left: 149px;
+}
+#menu-toggle {
+    float: right;
+}
+#work-steps .steps .step
+{
+    float: left;
+}
+#services .servicess .img
+{
+    float: left;
+}
+#services .servicess .i
+{
+    float: left;
+    margin-right: 10px;
+}
+ .works > a > h5, .works > a > small 
+{
+    left: 20px;
+}
+#blog .blog article
+{
+    float: left;
+}
+#contacts .co-form
+{
+    float: left;
+}
+ .input-group i
+{
+    left: 0;
+}
+#contacts .info > h5 > i
+{
+    margin-right: 15px;
+}
+#contacts .info > h5:hover > i
+{
+    margin-right: 25px;
+}
+.plan-wrapper 
+{
+    float: left;
+}
+.page-content articles,.page-content post
+{
+    float: left;
+    padding-left: 0;
+}
+.page-content side
+{
+    padding-right: 0;
+}
+.page-content articles > article > .info > .part1
+{
+    float: left;
+}
+articles > article > .info .part1 i
+{
+    margin-left: 10px;
+}
+articles > article > .info .part1 li:hover > span
+{
+    margin-left: 5px;
+    transition: .5s;
+}
+@media (max-width: 768px)
+{
+    articles > article > .info .part1 i
+    {
+        margin-right: 5px;
+    }
+    articles > article > .info .part1 li:hover > span
+    {
+        margin-left: 0;
+    }
+}
+articles > article > .info .part2 > end > a.readmore
+{
+    /*float: left;*/
+}
+post > .info > ul > li,post > .social > i,.tags > i
+{
+    float: left;
+    margin-right: 30px;
+}
+post > .info > ul > li > i
+{
+    margin-right: 5px;
+}
+side .block li h3 > a
+{
+    padding-left: 10px;
+}
+side .block li:hover h3 > a
+{
+    padding-left: 15px;
+}
+side .block .img,.author > .avatar,post > .social > i,.tags > i
+{
+    float: left;
+}
+side .block .list-articles li span i
+{
+    margin-right: 10px;
+}
+#footer .footer-menu,#footer .footer-menu  ul li
+{
+    float: left;
+}
+#footer .logo > a
+{
+    float: right;
+}
+#footer .totop
+{
+    right: 15px;
+}
+#header .top .container > div, #footer .top .container > div
+{
+    float: right;
+}
+.questions .captcha
+{
+    float: left;
+}
