@@ -192,6 +192,7 @@ class Front_Settings extends model {
             $this->FooterCode = isset($site_settings_array[0]['F_code']) ? unserialize(base64_decode($site_settings_array[0]['F_code'])) : '';
         }
     }
+    // sss
 
     public function site_home_settings($site_id) {
         $site_settings_array = $this->select('settings_values', 'sites', " WHERE id = '" . $site_id . "' ", null, null, 0, 1);
